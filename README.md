@@ -2,6 +2,12 @@
 
 Easily determine type.
 
+## Install
+
+```bash
+npm install ez-type
+```
+
 ## Usage
 
 ```javascript

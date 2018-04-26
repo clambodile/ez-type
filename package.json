@@ -13,12 +13,29 @@
     "test": "tape test.js | tnyan",
     "watch": "npm-watch"
   },
-  "keywords": ["type", "javascript", "ecmascript"],
+  "keywords": [
+    "type",
+    "javascript",
+    "ecmascript"
+  ],
   "author": "John Jacob",
   "license": "ISC",
   "devDependencies": {
     "npm-watch": "^0.3.0",
     "tap-nyan": "^1.1.0",
     "tape": "^4.9.0"
-  }
+  },
+  "dependencies": {
+    "npm-watch": "^0.3.0",
+    "tap-nyan": "^1.1.0",
+    "tape": "^4.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clambodile/ez-type.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clambodile/ez-type/issues"
+  },
+  "homepage": "https://github.com/clambodile/ez-type#readme"
 }
