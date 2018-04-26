@@ -1,6 +1,6 @@
 # ez-type
 
-Easily get a description of the type of a piece of data
+Easily determine type.
 
 ## Usage
 
@@ -13,4 +13,9 @@ ezType(undefined) //"undefined"
 ezType(NaN) //"NaN"
 ezType(5)  //"number"
 ezType("hewwo") //"string"
+
+//avoid common type pitfalls
+typeof [] //"object"
+typeof null //"object"
+typeof NaN //"number"
 ```
