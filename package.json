@@ -1,0 +1,24 @@
+{
+  "name": "ez-type",
+  "version": "1.0.0",
+  "description": "easily get a string description of a piece of data",
+  "main": "ezType.js",
+  "watch": {
+    "test": {
+      "patterns": "*.js",
+      "quiet": true
+    }
+  },
+  "scripts": {
+    "test": "tape test.js | tnyan",
+    "watch": "npm-watch"
+  },
+  "keywords": ["type", "javascript", "ecmascript"],
+  "author": "John Jacob",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-watch": "^0.3.0",
+    "tap-nyan": "^1.1.0",
+    "tape": "^4.9.0"
+  }
+}
